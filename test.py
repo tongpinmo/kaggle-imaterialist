@@ -28,7 +28,6 @@ def refine_masks(masks,labels):
         union_mask[label] = np.logical_or(masks[:,:,m], union_mask[label])
 
     # reorder masks
-    #FIXME:rle?
     refined = list()
     for m in range(masks.shape[-1]):
         mask = masks[:,:,m].ravel(order='F')
