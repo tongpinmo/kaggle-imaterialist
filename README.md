@@ -3,3 +3,13 @@ develop algorithms that will help with an important step towards automatic produ
 
 the result is 0.17859
 
+### run
+
+* sh train.sh
+
+### test
+
+* sh test.sh
+
+  
+
